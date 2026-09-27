@@ -1,0 +1,110 @@
+{
+  "salary_brackets": {
+    "Até R$ 3.000": 91,
+    "R$ 3.001 a R$ 6.000": 192,
+    "R$ 6.001 a R$ 10.000": 83,
+    "R$ 10.001 a R$ 15.000": 35,
+    "Acima de R$ 15.000": 43
+  },
+  "top_ufs": [
+    {
+      "uf": "MG",
+      "count": 103,
+      "vagas": 4469
+    },
+    {
+      "uf": "SP",
+      "count": 84,
+      "vagas": 1661
+    },
+    {
+      "uf": "SC",
+      "count": 65,
+      "vagas": 940
+    },
+    {
+      "uf": "RS",
+      "count": 31,
+      "vagas": 525
+    },
+    {
+      "uf": "PR",
+      "count": 27,
+      "vagas": 1242
+    },
+    {
+      "uf": "GO",
+      "count": 20,
+      "vagas": 929
+    },
+    {
+      "uf": "MT",
+      "count": 17,
+      "vagas": 486
+    },
+    {
+      "uf": "CE",
+      "count": 14,
+      "vagas": 2774
+    },
+    {
+      "uf": "RJ",
+      "count": 13,
+      "vagas": 1303
+    },
+    {
+      "uf": "RN",
+      "count": 12,
+      "vagas": 512
+    }
+  ],
+  "tipos": [
+    {
+      "tipo": "Concurso Público",
+      "count": 459
+    },
+    {
+      "tipo": "Estágio / Residência",
+      "count": 2
+    },
+    {
+      "tipo": "Processo Seletivo",
+      "count": 3
+    }
+  ],
+  "bancas": [],
+  "careers": [
+    {
+      "area": "Geral / Administrativo",
+      "count": 302
+    },
+    {
+      "area": "Saúde",
+      "count": 58
+    },
+    {
+      "area": "Administrativo",
+      "count": 33
+    },
+    {
+      "area": "Fiscal & Controle",
+      "count": 29
+    },
+    {
+      "area": "Educação",
+      "count": 29
+    },
+    {
+      "area": "Segurança & Policial",
+      "count": 24
+    },
+    {
+      "area": "Jurídico & Tribunais",
+      "count": 15
+    },
+    {
+      "area": "TI & Dados",
+      "count": 7
+    }
+  ]
+}

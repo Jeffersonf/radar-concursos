@@ -1,0 +1,53 @@
+{
+  "general": {
+    "app_name": "Monitor de Concursos Públicos",
+    "version": "1.0.0",
+    "db_path": "data/concursos.db",
+    "report_path": "data/relatorio_atual.md"
+  },
+  "sources": {
+    "pci_concursos": {
+      "enabled": true,
+      "base_url": "https://www.pciconcursos.com.br/concursos/",
+      "ufs": [
+        "nacional",
+        "sp",
+        "rj",
+        "mg",
+        "df",
+        "rs",
+        "pr",
+        "sc",
+        "ba"
+      ]
+    }
+  },
+  "filters": {
+    "keywords": [],
+    "min_salary": 0.0,
+    "education_levels": [],
+    "only_open_applications": true
+  },
+  "notifications": {
+    "console": {
+      "enabled": true
+    },
+    "markdown_report": {
+      "enabled": true
+    },
+    "telegram": {
+      "enabled": false,
+      "bot_token": "",
+      "chat_id": ""
+    },
+    "discord": {
+      "enabled": false,
+      "webhook_url": ""
+    }
+  },
+  "web": {
+    "host": "127.0.0.1",
+    "port": 8090,
+    "auto_open_browser": true
+  }
+}

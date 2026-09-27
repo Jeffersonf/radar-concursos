@@ -1,0 +1,874 @@
+{
+  "cities": [
+    {
+      "name": "Sao Paulo - SP",
+      "query": "sao paulo",
+      "lat": -23.5505,
+      "lon": -46.6333
+    },
+    {
+      "name": "Rio De Janeiro - RJ",
+      "query": "rio de janeiro",
+      "lat": -22.9068,
+      "lon": -43.1729
+    },
+    {
+      "name": "Belo Horizonte - MG",
+      "query": "belo horizonte",
+      "lat": -19.9167,
+      "lon": -43.9345
+    },
+    {
+      "name": "Brasilia - DF",
+      "query": "brasilia",
+      "lat": -15.7975,
+      "lon": -47.8919
+    },
+    {
+      "name": "Salvador - BA",
+      "query": "salvador",
+      "lat": -12.9714,
+      "lon": -38.5014
+    },
+    {
+      "name": "Fortaleza - CE",
+      "query": "fortaleza",
+      "lat": -3.7172,
+      "lon": -38.5433
+    },
+    {
+      "name": "Curitiba - PR",
+      "query": "curitiba",
+      "lat": -25.4284,
+      "lon": -49.2733
+    },
+    {
+      "name": "Recife - PE",
+      "query": "recife",
+      "lat": -8.0476,
+      "lon": -34.877
+    },
+    {
+      "name": "Porto Alegre - RS",
+      "query": "porto alegre",
+      "lat": -30.0346,
+      "lon": -51.2177
+    },
+    {
+      "name": "Manaus - AM",
+      "query": "manaus",
+      "lat": -3.119,
+      "lon": -60.0217
+    },
+    {
+      "name": "Belem - PA",
+      "query": "belem",
+      "lat": -1.4558,
+      "lon": -48.4902
+    },
+    {
+      "name": "Goiania - GO",
+      "query": "goiania",
+      "lat": -16.6869,
+      "lon": -49.2648
+    },
+    {
+      "name": "Florianopolis - SC",
+      "query": "florianopolis",
+      "lat": -27.5954,
+      "lon": -48.548
+    },
+    {
+      "name": "Vitoria - ES",
+      "query": "vitoria",
+      "lat": -20.3155,
+      "lon": -40.3128
+    },
+    {
+      "name": "Natal - RN",
+      "query": "natal",
+      "lat": -5.7945,
+      "lon": -35.211
+    },
+    {
+      "name": "Joao Pessoa - PB",
+      "query": "joao pessoa",
+      "lat": -7.1195,
+      "lon": -34.845
+    },
+    {
+      "name": "Maceio - AL",
+      "query": "maceio",
+      "lat": -9.6658,
+      "lon": -35.7351
+    },
+    {
+      "name": "Teresina - PI",
+      "query": "teresina",
+      "lat": -5.0919,
+      "lon": -42.8034
+    },
+    {
+      "name": "Campo Grande - MS",
+      "query": "campo grande",
+      "lat": -20.4697,
+      "lon": -54.6201
+    },
+    {
+      "name": "Cuiaba - MT",
+      "query": "cuiaba",
+      "lat": -15.6014,
+      "lon": -56.0979
+    },
+    {
+      "name": "Sao Luis - MA",
+      "query": "sao luis",
+      "lat": -2.5307,
+      "lon": -44.3068
+    },
+    {
+      "name": "Aracaju - SE",
+      "query": "aracaju",
+      "lat": -10.9472,
+      "lon": -37.0731
+    },
+    {
+      "name": "Porto Velho - RO",
+      "query": "porto velho",
+      "lat": -8.7612,
+      "lon": -63.9039
+    },
+    {
+      "name": "Macapa - AP",
+      "query": "macapa",
+      "lat": 0.0356,
+      "lon": -51.0705
+    },
+    {
+      "name": "Palmas - TO",
+      "query": "palmas",
+      "lat": -10.1844,
+      "lon": -48.3336
+    },
+    {
+      "name": "Rio Branco - AC",
+      "query": "rio branco",
+      "lat": -9.9754,
+      "lon": -67.8249
+    },
+    {
+      "name": "Boa Vista - RR",
+      "query": "boa vista",
+      "lat": 2.8235,
+      "lon": -60.6758
+    },
+    {
+      "name": "Campinas - SP",
+      "query": "campinas",
+      "lat": -22.9099,
+      "lon": -47.0626
+    },
+    {
+      "name": "Guarulhos - SP",
+      "query": "guarulhos",
+      "lat": -23.4542,
+      "lon": -46.5333
+    },
+    {
+      "name": "Santo Andre - SP",
+      "query": "santo andre",
+      "lat": -23.6639,
+      "lon": -46.5383
+    },
+    {
+      "name": "Sao Bernardo Do Campo - SP",
+      "query": "sao bernardo do campo",
+      "lat": -23.6944,
+      "lon": -46.5653
+    },
+    {
+      "name": "Osasco - SP",
+      "query": "osasco",
+      "lat": -23.5329,
+      "lon": -46.7916
+    },
+    {
+      "name": "Santos - SP",
+      "query": "santos",
+      "lat": -23.9608,
+      "lon": -46.3336
+    },
+    {
+      "name": "Ribeirao Preto - SP",
+      "query": "ribeirao preto",
+      "lat": -21.1767,
+      "lon": -47.8208
+    },
+    {
+      "name": "Sao Jose Dos Campos - SP",
+      "query": "sao jose dos campos",
+      "lat": -23.1791,
+      "lon": -45.8872
+    },
+    {
+      "name": "Sorocaba - SP",
+      "query": "sorocaba",
+      "lat": -23.5015,
+      "lon": -47.4526
+    },
+    {
+      "name": "Sao Jose Do Rio Preto - SP",
+      "query": "sao jose do rio preto",
+      "lat": -20.8113,
+      "lon": -49.3758
+    },
+    {
+      "name": "Jundiai - SP",
+      "query": "jundiai",
+      "lat": -23.1857,
+      "lon": -46.8978
+    },
+    {
+      "name": "Piracicaba - SP",
+      "query": "piracicaba",
+      "lat": -22.7253,
+      "lon": -47.6492
+    },
+    {
+      "name": "Bauru - SP",
+      "query": "bauru",
+      "lat": -22.3147,
+      "lon": -49.0606
+    },
+    {
+      "name": "Franca - SP",
+      "query": "franca",
+      "lat": -20.5386,
+      "lon": -47.4008
+    },
+    {
+      "name": "Itanhaem - SP",
+      "query": "itanhaem",
+      "lat": -24.1833,
+      "lon": -46.7894
+    },
+    {
+      "name": "Assis - SP",
+      "query": "assis",
+      "lat": -22.6617,
+      "lon": -50.4181
+    },
+    {
+      "name": "Boituva - SP",
+      "query": "boituva",
+      "lat": -23.2847,
+      "lon": -47.6719
+    },
+    {
+      "name": "Clementina - SP",
+      "query": "clementina",
+      "lat": -21.5706,
+      "lon": -50.4497
+    },
+    {
+      "name": "Dois Corregos - SP",
+      "query": "dois corregos",
+      "lat": -22.3653,
+      "lon": -48.38
+    },
+    {
+      "name": "Estrela Do Norte - SP",
+      "query": "estrela do norte",
+      "lat": -22.4925,
+      "lon": -51.6706
+    },
+    {
+      "name": "Barao De Antonina - SP",
+      "query": "barao de antonina",
+      "lat": -23.6264,
+      "lon": -49.5606
+    },
+    {
+      "name": "Marilia - SP",
+      "query": "marilia",
+      "lat": -22.2139,
+      "lon": -49.9458
+    },
+    {
+      "name": "Araraquara - SP",
+      "query": "araraquara",
+      "lat": -21.7946,
+      "lon": -48.1766
+    },
+    {
+      "name": "Presidente Prudente - SP",
+      "query": "presidente prudente",
+      "lat": -22.1256,
+      "lon": -51.3889
+    },
+    {
+      "name": "Limeira - SP",
+      "query": "limeira",
+      "lat": -22.5647,
+      "lon": -47.4017
+    },
+    {
+      "name": "Taubate - SP",
+      "query": "taubate",
+      "lat": -23.0264,
+      "lon": -45.5553
+    },
+    {
+      "name": "Praia Grande - SP",
+      "query": "praia grande",
+      "lat": -24.0058,
+      "lon": -46.4028
+    },
+    {
+      "name": "Guaruja - SP",
+      "query": "guaruja",
+      "lat": -23.9931,
+      "lon": -46.2564
+    },
+    {
+      "name": "Buri - SP",
+      "query": "buri",
+      "lat": -23.7975,
+      "lon": -48.5928
+    },
+    {
+      "name": "Itapeva - SP",
+      "query": "itapeva",
+      "lat": -23.9826,
+      "lon": -48.8786
+    },
+    {
+      "name": "Capao Bonito - SP",
+      "query": "capao bonito",
+      "lat": -24.0064,
+      "lon": -48.3494
+    },
+    {
+      "name": "Itapetininga - SP",
+      "query": "itapetininga",
+      "lat": -23.5917,
+      "lon": -48.0531
+    },
+    {
+      "name": "Tatui - SP",
+      "query": "tatui",
+      "lat": -23.3556,
+      "lon": -47.8569
+    },
+    {
+      "name": "Avare - SP",
+      "query": "avare",
+      "lat": -23.0989,
+      "lon": -48.9256
+    },
+    {
+      "name": "Itarare - SP",
+      "query": "itarare",
+      "lat": -24.1167,
+      "lon": -49.3333
+    },
+    {
+      "name": "Uberlandia - MG",
+      "query": "uberlandia",
+      "lat": -18.9186,
+      "lon": -48.2772
+    },
+    {
+      "name": "Juiz De Fora - MG",
+      "query": "juiz de fora",
+      "lat": -21.7587,
+      "lon": -43.3496
+    },
+    {
+      "name": "Montes Claros - MG",
+      "query": "montes claros",
+      "lat": -16.7281,
+      "lon": -43.8617
+    },
+    {
+      "name": "Betim - MG",
+      "query": "betim",
+      "lat": -19.9678,
+      "lon": -44.1983
+    },
+    {
+      "name": "Contagem - MG",
+      "query": "contagem",
+      "lat": -19.9317,
+      "lon": -44.0536
+    },
+    {
+      "name": "Uberaba - MG",
+      "query": "uberaba",
+      "lat": -19.7472,
+      "lon": -47.9392
+    },
+    {
+      "name": "Governador Valadares - MG",
+      "query": "governador valadares",
+      "lat": -18.8511,
+      "lon": -41.9494
+    },
+    {
+      "name": "Ipatinga - MG",
+      "query": "ipatinga",
+      "lat": -19.4686,
+      "lon": -42.5369
+    },
+    {
+      "name": "Pocos De Caldas - MG",
+      "query": "pocos de caldas",
+      "lat": -21.7878,
+      "lon": -46.5614
+    },
+    {
+      "name": "Unai - MG",
+      "query": "unai",
+      "lat": -16.3578,
+      "lon": -46.9064
+    },
+    {
+      "name": "Patos De Minas - MG",
+      "query": "patos de minas",
+      "lat": -18.5789,
+      "lon": -46.5181
+    },
+    {
+      "name": "Pouso Alegre - MG",
+      "query": "pouso alegre",
+      "lat": -22.23,
+      "lon": -45.9364
+    },
+    {
+      "name": "Varginha - MG",
+      "query": "varginha",
+      "lat": -21.5517,
+      "lon": -45.43
+    },
+    {
+      "name": "Divinopolis - MG",
+      "query": "divinopolis",
+      "lat": -20.1439,
+      "lon": -44.8858
+    },
+    {
+      "name": "Niteroi - RJ",
+      "query": "niteroi",
+      "lat": -22.8833,
+      "lon": -43.1036
+    },
+    {
+      "name": "Sao Goncalo - RJ",
+      "query": "sao goncalo",
+      "lat": -22.8269,
+      "lon": -43.0539
+    },
+    {
+      "name": "Duque De Caxias - RJ",
+      "query": "duque de caxias",
+      "lat": -22.7856,
+      "lon": -43.3117
+    },
+    {
+      "name": "Nova Iguacu - RJ",
+      "query": "nova iguacu",
+      "lat": -22.7558,
+      "lon": -43.4603
+    },
+    {
+      "name": "Campos Dos Goytacazes - RJ",
+      "query": "campos dos goytacazes",
+      "lat": -21.7544,
+      "lon": -41.3244
+    },
+    {
+      "name": "Petropolis - RJ",
+      "query": "petropolis",
+      "lat": -22.505,
+      "lon": -43.1789
+    },
+    {
+      "name": "Volta Redonda - RJ",
+      "query": "volta redonda",
+      "lat": -22.5231,
+      "lon": -44.1042
+    },
+    {
+      "name": "Macae - RJ",
+      "query": "macae",
+      "lat": -22.3769,
+      "lon": -41.7869
+    },
+    {
+      "name": "Cabo Frio - RJ",
+      "query": "cabo frio",
+      "lat": -22.8797,
+      "lon": -42.0186
+    },
+    {
+      "name": "Londrina - PR",
+      "query": "londrina",
+      "lat": -23.3103,
+      "lon": -51.1628
+    },
+    {
+      "name": "Maringa - PR",
+      "query": "maringa",
+      "lat": -23.421,
+      "lon": -51.9331
+    },
+    {
+      "name": "Ponta Grossa - PR",
+      "query": "ponta grossa",
+      "lat": -25.0994,
+      "lon": -50.1583
+    },
+    {
+      "name": "Cascavel - PR",
+      "query": "cascavel",
+      "lat": -24.9578,
+      "lon": -53.4594
+    },
+    {
+      "name": "Foz Do Iguacu - PR",
+      "query": "foz do iguacu",
+      "lat": -25.5163,
+      "lon": -54.5853
+    },
+    {
+      "name": "Joinville - SC",
+      "query": "joinville",
+      "lat": -26.3045,
+      "lon": -48.8487
+    },
+    {
+      "name": "Blumenau - SC",
+      "query": "blumenau",
+      "lat": -26.9194,
+      "lon": -49.0661
+    },
+    {
+      "name": "Caxias Do Sul - RS",
+      "query": "caxias do sul",
+      "lat": -29.1681,
+      "lon": -51.1794
+    },
+    {
+      "name": "Pelotas - RS",
+      "query": "pelotas",
+      "lat": -31.7654,
+      "lon": -52.3376
+    },
+    {
+      "name": "Canoas - RS",
+      "query": "canoas",
+      "lat": -29.9178,
+      "lon": -51.1836
+    },
+    {
+      "name": "Santa Maria - RS",
+      "query": "santa maria",
+      "lat": -29.6842,
+      "lon": -53.8069
+    },
+    {
+      "name": "Chapeco - SC",
+      "query": "chapeco",
+      "lat": -27.1004,
+      "lon": -52.6152
+    },
+    {
+      "name": "Itajai - SC",
+      "query": "itajai",
+      "lat": -26.9078,
+      "lon": -48.6619
+    },
+    {
+      "name": "Criciuma - SC",
+      "query": "criciuma",
+      "lat": -28.6775,
+      "lon": -49.3697
+    },
+    {
+      "name": "Feira De Santana - BA",
+      "query": "feira de santana",
+      "lat": -12.2664,
+      "lon": -38.9663
+    },
+    {
+      "name": "Vitoria Da Conquista - BA",
+      "query": "vitoria da conquista",
+      "lat": -14.8661,
+      "lon": -40.8394
+    },
+    {
+      "name": "Caruaru - PE",
+      "query": "caruaru",
+      "lat": -8.2833,
+      "lon": -35.9761
+    },
+    {
+      "name": "Petrolina - PE",
+      "query": "petrolina",
+      "lat": -9.3986,
+      "lon": -40.5008
+    },
+    {
+      "name": "Campina Grande - PB",
+      "query": "campina grande",
+      "lat": -7.2306,
+      "lon": -35.8811
+    },
+    {
+      "name": "Mossoro - RN",
+      "query": "mossoro",
+      "lat": -5.1878,
+      "lon": -37.3442
+    },
+    {
+      "name": "Anapolis - GO",
+      "query": "anapolis",
+      "lat": -16.3267,
+      "lon": -48.9533
+    },
+    {
+      "name": "Rio Verde - GO",
+      "query": "rio verde",
+      "lat": -17.7925,
+      "lon": -50.9192
+    },
+    {
+      "name": "Dourados - MS",
+      "query": "dourados",
+      "lat": -22.2231,
+      "lon": -54.8081
+    },
+    {
+      "name": "Rondonopolis - MT",
+      "query": "rondonopolis",
+      "lat": -16.4678,
+      "lon": -54.6372
+    },
+    {
+      "name": "Santarem - PA",
+      "query": "santarem",
+      "lat": -2.4431,
+      "lon": -54.7083
+    },
+    {
+      "name": "Maraba - PA",
+      "query": "maraba",
+      "lat": -5.3686,
+      "lon": -49.1178
+    },
+    {
+      "name": "Imperatriz - MA",
+      "query": "imperatriz",
+      "lat": -5.5264,
+      "lon": -47.4725
+    },
+    {
+      "name": "Parnaiba - PI",
+      "query": "parnaiba",
+      "lat": -2.9039,
+      "lon": -41.7769
+    },
+    {
+      "name": "Currais - PI",
+      "query": "currais",
+      "lat": -9.0069,
+      "lon": -44.4078
+    },
+    {
+      "name": "Acari - RN",
+      "query": "acari",
+      "lat": -6.4278,
+      "lon": -36.6406
+    },
+    {
+      "name": "Tangara - RN",
+      "query": "tangara",
+      "lat": -6.1986,
+      "lon": -35.7997
+    },
+    {
+      "name": "Cruzeta - RN",
+      "query": "cruzeta",
+      "lat": -6.4114,
+      "lon": -36.7897
+    },
+    {
+      "name": "Nisia Floresta - RN",
+      "query": "nisia floresta",
+      "lat": -6.0917,
+      "lon": -35.2089
+    },
+    {
+      "name": "São Paulo (SP)",
+      "query": "são paulo",
+      "lat": -23.5505,
+      "lon": -46.6333
+    },
+    {
+      "name": "Rio de Janeiro (RJ)",
+      "query": "rio de janeiro",
+      "lat": -22.9068,
+      "lon": -43.1729
+    },
+    {
+      "name": "Belo Horizonte (MG)",
+      "query": "belo horizonte",
+      "lat": -19.9167,
+      "lon": -43.9345
+    },
+    {
+      "name": "Brasília (DF)",
+      "query": "brasília",
+      "lat": -15.7975,
+      "lon": -47.8919
+    },
+    {
+      "name": "Vitória (ES)",
+      "query": "vitória",
+      "lat": -20.3155,
+      "lon": -40.3128
+    },
+    {
+      "name": "Curitiba (PR)",
+      "query": "curitiba",
+      "lat": -25.4284,
+      "lon": -49.2733
+    },
+    {
+      "name": "Florianópolis (SC)",
+      "query": "florianópolis",
+      "lat": -27.5954,
+      "lon": -48.548
+    },
+    {
+      "name": "Porto Alegre (RS)",
+      "query": "porto alegre",
+      "lat": -30.0346,
+      "lon": -51.2177
+    },
+    {
+      "name": "Salvador (BA)",
+      "query": "salvador",
+      "lat": -12.9714,
+      "lon": -38.5014
+    },
+    {
+      "name": "Recife (PE)",
+      "query": "recife",
+      "lat": -8.0476,
+      "lon": -34.877
+    },
+    {
+      "name": "Fortaleza (CE)",
+      "query": "fortaleza",
+      "lat": -3.7172,
+      "lon": -38.5433
+    },
+    {
+      "name": "Natal (RN)",
+      "query": "natal",
+      "lat": -5.7945,
+      "lon": -35.211
+    },
+    {
+      "name": "João Pessoa (PB)",
+      "query": "joão pessoa",
+      "lat": -7.1195,
+      "lon": -34.845
+    },
+    {
+      "name": "Maceió (AL)",
+      "query": "maceió",
+      "lat": -9.6658,
+      "lon": -35.7351
+    },
+    {
+      "name": "Aracaju (SE)",
+      "query": "aracaju",
+      "lat": -10.9472,
+      "lon": -37.0731
+    },
+    {
+      "name": "Teresina (PI)",
+      "query": "teresina",
+      "lat": -5.0919,
+      "lon": -42.8034
+    },
+    {
+      "name": "São Luís (MA)",
+      "query": "são luís",
+      "lat": -2.5307,
+      "lon": -44.3068
+    },
+    {
+      "name": "Goiânia (GO)",
+      "query": "goiânia",
+      "lat": -16.6869,
+      "lon": -49.2648
+    },
+    {
+      "name": "Cuiabá (MT)",
+      "query": "cuiabá",
+      "lat": -15.6014,
+      "lon": -56.0979
+    },
+    {
+      "name": "Campo Grande (MS)",
+      "query": "campo grande",
+      "lat": -20.4697,
+      "lon": -54.6201
+    },
+    {
+      "name": "Manaus (AM)",
+      "query": "manaus",
+      "lat": -3.119,
+      "lon": -60.0217
+    },
+    {
+      "name": "Belém (PA)",
+      "query": "belém",
+      "lat": -1.4558,
+      "lon": -48.4902
+    },
+    {
+      "name": "Porto Velho (RO)",
+      "query": "porto velho",
+      "lat": -8.7612,
+      "lon": -63.9039
+    },
+    {
+      "name": "Palmas (TO)",
+      "query": "palmas",
+      "lat": -10.1844,
+      "lon": -48.3336
+    },
+    {
+      "name": "Rio Branco (AC)",
+      "query": "rio branco",
+      "lat": -9.9754,
+      "lon": -67.8249
+    },
+    {
+      "name": "Macapá (AP)",
+      "query": "macapá",
+      "lat": 0.0356,
+      "lon": -51.0705
+    },
+    {
+      "name": "Boa Vista (RR)",
+      "query": "boa vista",
+      "lat": 2.8235,
+      "lon": -60.6758
+    }
+  ]
+}

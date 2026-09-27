@@ -1,0 +1,40 @@
+{
+  "total": 478,
+  "open": 464,
+  "favorites": 0,
+  "max_salary": 37765.55,
+  "top_ufs": [
+    {
+      "uf": "MG",
+      "count": 105
+    },
+    {
+      "uf": "SP",
+      "count": 87
+    },
+    {
+      "uf": "SC",
+      "count": 65
+    },
+    {
+      "uf": "RS",
+      "count": 31
+    },
+    {
+      "uf": "PR",
+      "count": 27
+    },
+    {
+      "uf": "GO",
+      "count": 20
+    },
+    {
+      "uf": "MT",
+      "count": 17
+    },
+    {
+      "uf": "CE",
+      "count": 15
+    }
+  ]
+}

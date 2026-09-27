@@ -1,0 +1,65 @@
+name: Varredura de Editais & Publicação GitHub Pages
+
+on:
+  schedule:
+    # Executa a cada 6 horas (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Permite disparar manualmente pelo botão no GitHub
+
+# Permissões necessárias para fazer commit e atualizar o GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  scrape-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Instalar Dependências (se houver)
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Executar Varredura e Exportação Estática
+        run: |
+          python export_static.py --scan
+
+      - name: Salvar Dados Atualizados no Repositório
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/ data/
+          if git diff --staged --quiet; then
+            echo "Nenhuma alteração nos editais detectada nesta execução."
+          else
+            git commit -m "chore(data): atualizar editais e métricas [skip ci]"
+            git push
+          fi
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Enviar Arquivos para Deploy
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'docs/'
+
+      - name: Publicar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
